@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Wildan</title>
+  <link rel="stylesheet" href="porto.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">WILDAN'S PROFILE</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero card">
+    <div class="hero-left">
+      <h2 id="typing-text">Hi, I'm Wildan</h2>
+      <p>Welcome to my portfolio website!<br>
+         Halo! Saya Wildan Ahmad Dzimmijad, seorang mahasiswa Informatika di Universitas Jember. Saya memiliki ketertarikan dalam bidang pemrograman, desain UI/UX dan seputar tentang website development. Portofolio ini saya buat untuk berbagi proyek perjalanan belajar saya di dunia teknologi.</p>
+    </div>
+
+    <div class="hero-right">
+      <img src="fotoporto.jpg" alt="Foto Wildan" class="floating-img">
+      <div class="hero-info">
+        <h3>Wildan Ahmad Dzimmijad</h3>
+        <p>Mahasiswa Informatika - Universitas Jember</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about card">
+    <h2>About Me</h2>
+    <p>Saya adalah Wildan Ahmad Dzimmijad, mahasiswa semester 3 di program studi Informatika, Universitas Jember. Saya passionate tentang teknologi, khususnya dalam pengembangan web, desain antarmuka pengguna, dan analisis data. Selama kuliah, saya telah terlibat dalam berbagai proyek yang membantu saya mengasah keterampilan saya. Saya percaya bahwa teknologi dapat memecahkan masalah nyata di masyarakat, dan saya terus belajar untuk menjadi developer yang lebih baik. Di luar kuliah, saya suka membaca buku tentang AI dan mendesain mockup aplikasi.</p>
+  </section>
+
+  <section id="skill" class="skill card">
+    <h2>My Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card"><span class="skill-item">HTML, CSS, JavaScript</span></div>
+      <div class="skill-card"><span class="skill-item">Python (Data Analysis & Machine Learning)</span></div>
+      <div class="skill-card"><span class="skill-item">UI/UX Design (Figma, Canva)</span></div>
+      <div class="skill-card"><span class="skill-item">Database (PostgreSQL, MySQL)</span></div>
+    </div>
+  </section>
+
+  <section id="project" class="project card">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="buku.jpg" alt="Sistem Manajemen dan Jual Beli Buku">
+        <h3>Project 1: Sistem Manajemen dan Jual Beli Buku</h3>
+        <p>Sebuah sistem untuk mengelola dan menjual buku secara online.</p>
+        <a href="#" class="btn" onclick="showProjectDescription('Sistem Manajemen dan Jual Beli Buku')">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="bunga.jpg" alt="Sistem dan Basis Data Jual Beli Buket Bunga">
+        <h3>Project 2: Sistem dan Basis Data Jual Beli Buket Bunga</h3>
+        <p>Sistem untuk mengelola transaksi jual beli buket bunga dengan basis data terintegrasi.</p>
+        <a href="#" class="btn" onclick="showProjectDescription('Sistem dan Basis Data Jual Beli Buket Bunga')">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="perpus.jpg" alt="Sistem dan Basis Data Manajemen Gramedia">
+        <h3>Project 3: Sistem dan Basis Data Manajemen Gramedia</h3>
+        <p>Sistem manajemen perpustakaan Gramedia dengan basis data yang efisien.</p>
+        <a href="#" class="btn" onclick="showProjectDescription('Sistem dan Basis Data Manajemen Gramedia')">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="imortal.jpg" alt="Pernah Menyentuh Mythical Immortal">
+        <h3>Project 4: Pernah Menyentuh Mythical Immortal</h3>
+        <p>Pernah Menyentuh Tier Rank Tertinggi di Game Mobile Legend.</p>
+        <a href="#" class="btn" onclick="showProjectDescription('Pernah Menyentuh Mythical Immortal')">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact card">
+    <h2>Contact</h2>
+    <p>Anda bisa menghubungi saya melalui email atau media sosial di bawah ini.</p>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: wildanzimijad@email.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/willdanahmad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/wildan</a></p>
+      <p>GitHub: <a href="https://github.com/Wildan3081">https://github.com/Wildan3081</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wildan's Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="porto.js"></script>
+</body>
+</html>
